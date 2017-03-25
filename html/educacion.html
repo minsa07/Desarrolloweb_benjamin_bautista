@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Hoja de vida digital</title>
+  </head>
+  <body>
+    <header>
+      <h1>Hoja de Vida</h1>
+      <h2>Hola soy Benjamín Bautista De León.</h2>
+      <h3>Nacido en Managua, Nicaragua el día 7 de Octubre de 1995.</h3>
+
+    </header>
+
+    <nav>
+
+      <a href="index.html">Inicio</a>
+      <a href="#educacion">Educación</a>
+      <a href="#experiencia">Experiencia</a>
+
+    </nav>
+
+    <h2>Educación</h2>
+    <table border="1", cellpading="0", cellspacing="0">
+      <thead>
+
+      <tr>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+      </tr>
+
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>2012</td>
+        <td>Instituto Pedagógico La Salle</td>
+        <td>Managua</td>
+        <td>Si</td>
+      </tr>
+
+      <tr>
+        <td>2016</td>
+        <td>Universidad Centroamericana</td>
+        <td>Managua</td>
+        <td>Si</td>
+      </tr>
+    </tbody>
+
+    </table>
+
+    <form name="estudios" autocomplete="on">
+
+    <fieldset>
+      <legend>Agregar estudios</legend>
+      <p><label for="Anyo">Año</label>
+      <select>
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+      </select>
+      </p>
+      <p>
+      <label for="Institucion">Institución</label>
+      <input type="text" id="Institucion" required>
+      </p>
+      <p>
+      <label for="Lugar">Lugar</label>
+      <input type="text" id="Lugar" required>
+      </p>
+      <p>
+      <label for="Culmino">¿Culminó?</label>
+      <input type="radio" name="Culmino" value="si"> Si
+      <input type="radio" name="Culmino" value="no"> No
+      </p>
+
+      <label for="Enviar"></label>
+      <input type="submit" name="Enviar">
+
+      <label for="reset"></label>
+      <input type="reset" name="reset" value="Limpiar formulario">
+
+    </fieldset>
+
+    </form>
+
+    <footer>
+      <h4>Contacto</h4>
+      <a href="mailto:benjaminbautista07@gmail.com">benjaminbautista07@gmail.com</a>
+      <br>+505 82388252
+      <br><a href="https://www.facebook.com/benjaminbaut7">Facebook</a>
+      <br>Managua, Nicaragua
+      <p>Derechos Reservados</p>
+    </footer>
+
+
+  </body>
+</html>
